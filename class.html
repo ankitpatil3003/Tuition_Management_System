@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CLASS</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>CLASS</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="no_Of_Student">No of Student</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="no_Of_Student"
+                  name="no_Of_Student"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Teacher_availability">Teaher availability</label>
+                <div>
+                  <label for="yes" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Teacher_availability"
+                      value="1"
+                      id="yes"
+                    />Yes</label
+                  >
+                  <label for="Teacher_availability" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Teacher_availability"
+                      value="0"
+                      id="Teacher_availability"
+                    />No</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Session_start_time">Session Start Time</label>
+                <input
+                  type="time"
+                  class="form-control"
+                  id="Session_start_time"
+                  name="Session_start_time"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Session_end_time">Session End Time</label>
+                <input
+                  type="time"
+                  class="form-control"
+                  id="Session_end_time"
+                  name="Session_end_time"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Branch_name">Branch Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Branch_name"
+                  name="Branch_name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Address">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Address"
+                  name="Address"
+                />
+              </div>
+              
+              <div class="form-group">
+                <label for="no_Of_Room">NO of Room</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="level">Level</label>
+                <div>
+                  <label for="11" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="level"
+                      value="11"
+                      id="11"
+                    />11</label
+                  >
+                  <label for="level" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="level"
+                      value="12"
+                      id="level"
+                    />12</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Subject">Subject</label>
+                <div>
+                  <label for="pcm" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Subject"
+                      value="pcm"
+                      id="Subject"
+                    />PCM</label
+                  >
+                  <label for="pcb" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Subject"
+                      value="pcb"
+                      id="Subject"
+                    />PCB</label
+                  >
+                  <label for="pcmb" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Subject"
+                      value="pcmb"
+                      id="Subject"
+                    />PCMB</label
+                  >
+                </div>
+              </div>
+              <input type="submit" class="btn btn-primary" />
+              <br>
+              <br>
+              <a href="home.html"><strong>BACK</strong></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </body>
+</html>
